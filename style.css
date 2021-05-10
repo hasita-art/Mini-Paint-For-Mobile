@@ -1,0 +1,19 @@
+body{
+    background-image: url("BG.jpg");
+    background-size: cover;
+    height: 100vh; 
+    background-repeat: no-repeat;
+    text-align: center;
+}
+#myCanvas{
+    border: 2px ridge;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+#clear{
+    background-color: green; 
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+    border-width: 0;
+    color: white;
+}
