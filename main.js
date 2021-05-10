@@ -23,6 +23,7 @@ function touchStartAction(event){
 function touchMoveAction(event){
     x2 = event.offsetX
     y2 = event.offsetY
+    console.log(event)
 
     pen.beginPath()
     if(!!getColor()){
